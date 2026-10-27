@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBSF engine v0.6.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="stage">
+        <img id="enemyGif" alt="">   <!-- animated .gif enemy sprites are shown here (under the canvas) -->
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <p class="hint">Z/Enter confirm &middot; X/Shift cancel + slow soul &middot; Arrows/WASD move &middot; P pause &middot; M mute &middot; V vfx &middot; F3 debug</p>
+
+    <!-- script.js = the engine (you rarely need to touch it). game.js = YOUR game. -->
+    <script src="script.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
